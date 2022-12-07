@@ -1,0 +1,251 @@
+#root {
+    display: contents!important;
+}
+
+/* .................................. Personal Details Form Start .................................. */
+
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200!important;300!important;400!important;500!important;600&display=swap')!important;
+
+* {
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+body {
+    min-height: 100vh!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    background: #4070f4!important;
+}
+
+.container {
+    position: relative!important;
+    width: 22%!important;
+    border-radius: 6px!important;
+    padding: 30px!important;
+    margin: 0 15px!important;
+    background-color: #fff!important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)!important;
+}
+
+.container header {
+    position: relative!important;
+    font-size: 20px!important;
+    font-weight: 600!important;
+    color: #333!important;
+}
+
+.container header::before {
+    content: ""!important;
+    position: absolute!important;
+    left: 0!important;
+    bottom: -2px!important;
+    height: 3px!important;
+    width: 27px!important;
+    border-radius: 8px!important;
+    background-color: #4070f4!important;
+}
+
+/* .container form {
+    position: relative!important;
+    margin-top: 16px!important;
+    min-height: 325px!important;
+    background-color: #fff!important;
+    overflow: auto!important;
+} */
+
+/* .container form .form {
+    position: absolute!important;
+    background-color: #fff!important;
+    transition: 0.3s ease!important;
+} */
+
+/* .container form .form.second {
+    opacity: 0!important;
+    pointer-events: none!important;
+    transform: translateX(100%)!important;
+} */
+
+/* form.secActive .form.second {
+    opacity: 1!important;
+    pointer-events: auto!important;
+    transform: translateX(0)!important;
+} */
+
+/* form.secActive .form.first {
+    opacity: 0!important;
+    pointer-events: none!important;
+    transform: translateX(-100%)!important;
+} */
+
+.container form .title {
+    display: block!important;
+    margin-bottom: 8px!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    margin: 6px 0!important;
+    color: #333!important;
+}
+
+/* .container form .fields {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    flex-wrap: wrap!important;
+} */
+
+form .fields .input-field {
+    display: flex!important;
+    width: calc(100% / 3 - 15px)!important;
+    flex-direction: column!important;
+    margin: 4px 0!important;
+}
+
+.input-field label {
+    font-size: 12px!important;
+    font-weight: 500!important;
+    color: #2e2e2e!important;
+}
+
+.input-field input,
+select {
+    outline: none!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    color: #333!important;
+    border-radius: 5px!important;
+    border: 1px solid #aaa!important;
+    padding: 0 15px!important;
+    height: 42px!important;
+    margin: 8px 0!important;
+    width: 346%!important;
+}
+
+/* .input-field input :focus,
+.input-field select:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13)!important;
+} */
+
+/* .input-field select,
+.input-field input[type="date"] {
+    color: #707070!important;
+} */
+
+/* .input-field input[type="date"]:valid {
+    color: #333!important;
+} */
+
+.container form button,
+.backBtn {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    height: 45px!important;
+    max-width: 200px!important;
+    width: 100%!important;
+    border: none!important;
+    outline: none!important;
+    color: #fff!important;
+    border-radius: 5px!important;
+    margin: 25px 0!important;
+    background-color: #4070f4!important;
+    transition: all 0.3s linear!important;
+    cursor: pointer!important;
+}
+
+.container form .btnText {
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
+
+form button:hover {
+    background-color: #265df2!important;
+}
+
+form button i,
+form .backBtn i {
+    margin: 0 6px!important;
+}
+
+form .backBtn i {
+    transform: rotate(180deg)!important;
+}
+
+form .buttons {
+    display: flex!important;
+    align-items: center!important;
+}
+
+form .buttons button,
+.backBtn {
+    margin-right: 14px!important;
+}
+
+/* .customeAddress {
+    width: 66.66% !important!important;
+} */
+
+/* .file {
+    border: 0 !important!important;
+    border-radius: 0 !important!important;
+} */
+
+/* .customeFile {
+    display: flex !important!important;
+    flex-direction: row !important!important;
+    flex-wrap: nowrap !important!important;
+    align-content: center !important!important;
+    justify-content: center !important!important;
+    align-items: center !important!important;
+} */
+
+/* .profile-badge {
+    border: 1px solid #c1c1c1!important;
+    padding: 5px!important;
+    position: relative!important;
+} */
+
+/* .profile-pic {
+    position: absolute!important;
+    height: 120px!important;
+    width: 120px!important;
+    left: 50%!important;
+    transform: translateX(-50%)!important;
+    top: 0px!important;
+    z-index: 1001!important;
+    padding: 10px!important;
+} */
+
+/* .profile-pic img {
+    border-radius: 50%!important;
+    box-shadow: 0px 0px 5px 0px #c1c1c1!important;
+    cursor: pointer!important;
+    width: 100px!important;
+    height: 100px!important;
+} */
+
+@media (max-width: 750px) {
+    .container form {
+        overflow-y: scroll!important;
+    }
+
+    .container form::-webkit-scrollbar {
+        display: none!important;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px)!important;
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%!important;
+    }
+}
+
+/* .................................. Personal Details Form End .................................. */
